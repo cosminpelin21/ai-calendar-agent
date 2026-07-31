@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # AI Model Settings (Ollama)
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1")
 
 # Google Calendar Settings
 GOOGLE_CREDENTIALS_FILE = os.getenv("GOOGLE_CREDENTIALS_FILE", "credentials.json")

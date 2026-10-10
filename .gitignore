@@ -1,14 +1,11 @@
-# Fișiere confidențiale de autentificare (NU le urca pe Git!)
 credentials.json
 token.json
 .env
 
-# Python & sisteme virtuale
 __pycache__/
 *.pyc
 venv/
 .venv/
 
-# Setări editor
 .vscode/
 .idea/
